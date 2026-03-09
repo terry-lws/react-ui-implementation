@@ -45,10 +45,8 @@ const Header = () => {
       >
         <HStack spacing="72px">
           <HStack spacing="12px">
-            <div>
-              <a href="#">
+            <div type="button">
                 <Image src={logo} width="90px" height="30px" alt="logo" />
-              </a>
             </div>
             {!isMobile && (
               <Text
@@ -74,21 +72,13 @@ const Header = () => {
               <DrawerCloseButton />
               <DrawerHeader borderBottomWidth="1px">Menu</DrawerHeader>
               <DrawerBody>
-                <a href="#">
-                  <Text>Overview</Text>
-                </a>
+                  <Text type="button">Overview</Text>
                 <Divider pb={2} />
-                <a href="#">
-                  <Text>The Challenge</Text>
-                </a>
+                  <Text type="button">The Challenge</Text>
                 <Divider pb={2} />
-                <a href="#">
-                  <Text>Schools</Text>
-                </a>
+                  <Text type="button">Schools</Text>
                 <Divider pb={2} />
-                <a href="#">
-                  <Text>Results</Text>
-                </a>
+                  <Text type="button">Results</Text>
               </DrawerBody>
             </DrawerContent>
           </Drawer>
@@ -98,18 +88,13 @@ const Header = () => {
             fontSize={17}
             display={{ base: "none", lg: "flex" }}
           >
-            <a href="#">
-              <Text>Overview</Text>
-            </a>
-            <a href="#">
-              <Text>The Challenge</Text>
-            </a>
-            <a href="#">
-              <Text>Schools</Text>
-            </a>
-            <a href="#">
-              <Text>Results</Text>
-            </a>
+                  <Text type="button">Overview</Text>
+                <Divider pb={2} />
+                  <Text type="button">The Challenge</Text>
+                <Divider pb={2} />
+                  <Text type="button">Schools</Text>
+                <Divider pb={2} />
+                  <Text type="button">Results</Text>
           </HStack>
         </HStack>
       </Flex>

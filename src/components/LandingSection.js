@@ -35,7 +35,6 @@ const LandingSection = () => {
             {secondLine}
           </Text>
           <Text fontSize={{ base: "16", md: "20" }}>{thirdLine}</Text>
-          <a href="#">
             <button
               className="landing-button"
               style={{
@@ -49,7 +48,6 @@ const LandingSection = () => {
             >
               Find out more
             </button>
-          </a>
         </Box>
       </VStack>
     </Box>

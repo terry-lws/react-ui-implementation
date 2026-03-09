@@ -50,7 +50,6 @@ const RewardSection = () => {
           >
             {secondLine}
           </Text>
-          <a href="#">
             <button
               className="reward-button"
               style={{
@@ -66,7 +65,6 @@ const RewardSection = () => {
               Certificate and award criteria{" "}
               <TriangleUpIcon transform="rotate(90deg)" />
             </button>
-          </a>
         </Box>
       </VStack>
     </Box>
