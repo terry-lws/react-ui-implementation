@@ -1,6 +1,6 @@
 import React from "react";
 import { Box, Flex, Image, Text } from "@chakra-ui/react";
-import logo from "../images/logo-white.png";
+import logo from "../images/logo192.png";
 
 const Footer = () => {
   return (
@@ -14,9 +14,9 @@ const Footer = () => {
         maxWidth="1280px"
         height={16}
       >
-        <Image src={logo} width="90px" height="30px" alt="logo" />
+        <Image src={logo} height="30px" alt="logo" />
         <Text fontSize="14px" fontFamily="'Roboto', sans-serif">
-          © 2023 ACER
+          © 2023 Demo
         </Text>
       </Flex>
     </Box>

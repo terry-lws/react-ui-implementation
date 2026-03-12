@@ -19,14 +19,14 @@ const procedure = [
   {
     name: "Preparation",
     description:
-      "After registering, simply add participating students to your ACER account, either new or existing, and allocate the challenge.",
+      "After registering, simply add participating students to your account, either new or existing, and allocate the challenge.",
     getImageSrc: () => require("../images/preparation.png"),
     altText: "Preparation logo",
   },
   {
     name: "Administration",
     description:
-      "Using ACER's online assessment and reporting platform, the challenge is administered digitally, with each subject expected to take around XX minutes for students to finish.",
+      "Using online assessment and reporting platform, the challenge is administered digitally, with each subject expected to take around XX minutes for students to finish.",
     getImageSrc: () => require("../images/administration.png"),
     altText: "Administration logo",
   },

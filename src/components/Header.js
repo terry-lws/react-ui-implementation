@@ -16,7 +16,7 @@ import {
   Divider,
 } from "@chakra-ui/react";
 import { HamburgerIcon } from "@chakra-ui/icons";
-import logo from "../images/logo.png";
+import logo from "../images/logo192.png";
 
 const Header = () => {
   const { isOpen, onOpen, onClose } = useDisclosure();
@@ -46,7 +46,7 @@ const Header = () => {
         <HStack spacing="72px">
           <HStack spacing="12px">
             <div type="button">
-                <Image src={logo} width="90px" height="30px" alt="logo" />
+                <Image src={logo} height="30px" alt="logo" />
             </div>
             {!isMobile && (
               <Text

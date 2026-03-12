@@ -8,7 +8,7 @@ import "swiper/swiper.min.css";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import NewsCard from "./NewsCard";
 
-const heading = "Discover the latest from ACER";
+const heading = "Discover the latest news";
 
 const news = [
   {
